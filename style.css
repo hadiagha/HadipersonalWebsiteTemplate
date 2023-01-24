@@ -1,0 +1,49 @@
+body {
+  background-color: #f5f5f5;
+}
+body .navbar {
+  margin-bottom: 20px;
+}
+body img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body #name {
+  margin-bottom: 20px;
+}
+body #email {
+  margin-bottom: 20px;
+}
+body #message {
+  margin-bottom: 20px;
+}
+body .title {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body .navbar {
+    font-size: 0.8em;
+  }
+  body .img-fluid {
+    width: 100%;
+  }
+  body .education {
+    width: 100%;
+    color: red;
+  }
+}
+@media (min-width: 768px) {
+  body .navbar {
+    font-size: 0.8em;
+  }
+  body .img-fluid {
+    width: 50%;
+  }
+  body .education {
+    width: 100%;
+    display: flex;
+    color: blue;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

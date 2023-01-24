@@ -1,0 +1,66 @@
+$main-color: #f5f5f5;
+$font-size : 20px;
+
+body {
+  background-color: $main-color;
+
+  .navbar {
+    margin-bottom:$font-size;
+  }
+
+  img {
+    margin-top: $font-size;
+    margin-bottom: $font-size;
+  }
+
+  #name {
+    margin-bottom:$font-size;
+  }
+
+  #email {
+    margin-bottom: $font-size;
+  }
+
+  #message {
+    margin-bottom: $font-size;
+  }
+
+  .title {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .navbar {
+      font-size: 0.8em;
+    }
+    .img-fluid {
+      width: 100%;
+    }
+    .education {
+        width: 100%;
+        color: red
+    }
+
+  }
+
+  @media (min-width: 768px) {
+    .navbar {
+      font-size: 0.8em;
+    }
+    .img-fluid {
+      width: 50%;
+    }
+    .education {
+        width: 100%;
+        display: flex;
+        color: blue
+
+    }
+  }
+
+}
+
+
+.skills {
+  @extend body;
+  color: yellow;
+}
