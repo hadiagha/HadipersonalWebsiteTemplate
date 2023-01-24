@@ -67,3 +67,11 @@ body {
   @extend #skillsection;
   color: rgb(6, 136, 23);
 }
+
+a:hover {
+  color: red !important;
+}
+
+[href] {
+  text-decoration: underline;
+}
