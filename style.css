@@ -46,4 +46,12 @@ body .title {
   }
 }
 
+#skillsection, .skills {
+  font-style: italic;
+}
+
+.skills {
+  color: rgb(6, 136, 23);
+}
+
 /*# sourceMappingURL=style.css.map */

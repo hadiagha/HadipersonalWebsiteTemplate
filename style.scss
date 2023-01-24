@@ -59,8 +59,11 @@ body {
 
 }
 
+#skillsection {
+  font-style: italic
+}
 
 .skills {
-  @extend body;
-  color: yellow;
+  @extend #skillsection;
+  color: rgb(6, 136, 23);
 }
